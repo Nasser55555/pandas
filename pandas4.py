@@ -7,4 +7,5 @@ data = [
     ["salma", 30, "casablanca"],
     ["nora", np.nan, "tanger"],
 ]
+
 df = pd.DataFrame(data, columns=["Nom", "Age", "Ville"])
